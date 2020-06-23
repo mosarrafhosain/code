@@ -1,5 +1,6 @@
 <script type="text/javascript">
   $(function () {
+    // Current menu highlighted
     var str = location.href.toLowerCase();
     $('.nav li a').each(function () {
       if (str.indexOf(this.href.toLowerCase()) > -1) {
@@ -12,5 +13,6 @@
         $(this).addClass("active");
       }
     });
+    // ====================================================
   });
 </script>
